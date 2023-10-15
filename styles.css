@@ -1,0 +1,33 @@
+
+span.t706__cartwin-totalamount-label:before {
+    content: "Сумма к оплате:";
+    position: absolute;
+    right: 3px;
+    width: 300%;
+    color: #000;
+}
+span.t706__cartwin-totalamount-label, .t706__cartwin-totalamount-info span:nth-of-type(3) {
+    position: relative;
+    color: transparent;
+}
+
+.t706__cartwin-totalamount-info span:nth-of-type(3):before {
+    content: "Скидка за самовывоз:";
+    position: absolute;
+    right: 1px;
+    width: 300%;
+    color: #000;
+}
+
+.t706__cartwin-totalamount-info span:nth-of-type(5) {
+    position: relative;
+    color: transparent;
+}
+
+.t706__cartwin-totalamount-info span:nth-of-type(5):before {
+    content: "Сумма скидки:";
+    position: absolute;
+    right: 1px;
+    width: 300%;
+    color: #000;
+}
