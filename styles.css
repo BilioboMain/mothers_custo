@@ -87,19 +87,6 @@ span.t706__cartwin-totalamount-label,.dostavka .t706__cartwin-totalamount-info s
     color: #000;
 }
 
-.dostavka .t706__cartwin-totalamount-info span:nth-of-type(5) {
-    position: relative;
-    color: transparent;
-}
-
-.dostavka .t706__cartwin-totalamount-info span:nth-of-type(5):before {
-    content: "К оплате:";
-    position: absolute;
-    right: 1px;
-    width: 300%;
-    color: #000;
-}
-
 .dostavka .t706__cartwin-totalamount-label {
     position: relative;
     color: transparent;
