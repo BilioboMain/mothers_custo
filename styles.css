@@ -1,17 +1,31 @@
-
+/*Самовывоз*/
 span.t706__cartwin-totalamount-label:before {
-    content: "Сумма к оплате:";
+    content: "Итого:";
     position: absolute;
     right: 3px;
     width: 300%;
     color: #000;
 }
-span.t706__cartwin-totalamount-label, .t706__cartwin-totalamount-info span:nth-of-type(3) {
+
+span.t706__cartwin-totalamount-label,.vivoz .t706__cartwin-totalamount-info span:nth-of-type(1) {
     position: relative;
     color: transparent;
 }
 
-.t706__cartwin-totalamount-info span:nth-of-type(3):before {
+.vivoz .t706__cartwin-totalamount-info span:nth-of-type(1):before {
+    content: "Итого:";
+    position: absolute;
+    right: 1px;
+    width: 300%;
+    color: #000;
+}
+
+span.t706__cartwin-totalamount-label,.vivoz .t706__cartwin-totalamount-info span:nth-of-type(3) {
+    position: relative;
+    color: transparent;
+}
+
+.vivoz .t706__cartwin-totalamount-info span:nth-of-type(3):before {
     content: "Скидка за самовывоз:";
     position: absolute;
     right: 1px;
@@ -19,13 +33,80 @@ span.t706__cartwin-totalamount-label, .t706__cartwin-totalamount-info span:nth-o
     color: #000;
 }
 
-.t706__cartwin-totalamount-info span:nth-of-type(5) {
+.vivoz .t706__cartwin-totalamount-info span:nth-of-type(5) {
     position: relative;
     color: transparent;
 }
 
-.t706__cartwin-totalamount-info span:nth-of-type(5):before {
+.vivoz .t706__cartwin-totalamount-info span:nth-of-type(5):before {
     content: "Сумма скидки:";
+    position: absolute;
+    right: 1px;
+    width: 300%;
+    color: #000;
+}
+
+.vivoz .t706__cartwin-totalamount-info span:nth-of-type(7), .vivoz .t706__cartwin-totalamount-info span:nth-of-type(8) {
+    position: relative;
+    color: transparent;
+}
+
+/*К оплате самовывоз*/
+.vivoz .t706__cartwin-totalamount-label {
+    position: relative;
+    color: transparent;
+}
+
+.vivoz .t706__cartwin-totalamount-label:before {
+    content: "К оплате:";
+    position: absolute;
+    right: 1px;
+    width: 300%;
+    color: #000;
+}
+
+/*Dostavka*/
+span.t706__cartwin-totalamount-label:before {
+    content: "Итого:";
+    position: absolute;
+    right: 3px;
+    width: 300%;
+    color: #000;
+}
+
+span.t706__cartwin-totalamount-label,.dostavka .t706__cartwin-totalamount-info span:nth-of-type(1) {
+    position: relative;
+    color: transparent;
+}
+
+.dostavka .t706__cartwin-totalamount-info span:nth-of-type(1):before {
+    content: "Итого:";
+    position: absolute;
+    right: 1px;
+    width: 300%;
+    color: #000;
+}
+
+.dostavka .t706__cartwin-totalamount-info span:nth-of-type(5) {
+    position: relative;
+    color: transparent;
+}
+
+.dostavka .t706__cartwin-totalamount-info span:nth-of-type(5):before {
+    content: "К оплате:";
+    position: absolute;
+    right: 1px;
+    width: 300%;
+    color: #000;
+}
+
+.dostavka .t706__cartwin-totalamount-label {
+    position: relative;
+    color: transparent;
+}
+
+.dostavka .t706__cartwin-totalamount-label:before {
+    content: "К оплате:";
     position: absolute;
     right: 1px;
     width: 300%;
